@@ -535,11 +535,23 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .top-\[70\%\] {
+    top: 70%;
+  }
+  .top-\[500px\] {
+    top: 500px;
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .z-10 {
     z-index: 10;
   }
   .m-9 {
     margin: calc(var(--spacing) * 9);
+  }
+  .mx-auto {
+    margin-inline: auto;
   }
   .my-\[50px\] {
     margin-block: 50px;
@@ -556,6 +568,12 @@
   .mt-\[50px\] {
     margin-top: 50px;
   }
+  .mt-\[100px\] {
+    margin-top: 100px;
+  }
+  .mt-\[130px\] {
+    margin-top: 130px;
+  }
   .mr-15 {
     margin-right: calc(var(--spacing) * 15);
   }
@@ -568,6 +586,9 @@
   .mb-\[30px\] {
     margin-bottom: 30px;
   }
+  .mb-\[100px\] {
+    margin-bottom: 100px;
+  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
@@ -576,6 +597,9 @@
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .inline-flex {
     display: inline-flex;
@@ -586,14 +610,8 @@
   .table {
     display: table;
   }
-  .h-\[10vw\] {
-    height: 10vw;
-  }
   .h-\[50px\] {
     height: 50px;
-  }
-  .h-\[60vw\] {
-    height: 60vw;
   }
   .h-\[70vw\] {
     height: 70vw;
@@ -603,6 +621,33 @@
   }
   .h-\[100vw\] {
     height: 100vw;
+  }
+  .h-\[10vw\] {
+    height: 10vw;
+  }
+  .h-\[60vw\] {
+    height: 60vw;
+  }
+  .h-\[100vh\] {
+    height: 100vh;
+  }
+  .h-\[200vh\] {
+    height: 200vh;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[542px\] {
+    height: 542px;
+  }
+  .h-\[650px\] {
+    height: 650px;
+  }
+  .h-\[942px\] {
+    height: 942px;
+  }
+  .max-h-\[70vh\] {
+    max-height: 70vh;
   }
   .max-h-\[80vh\] {
     max-height: 80vh;
@@ -649,17 +694,38 @@
   .w-\[20px\] {
     width: 20px;
   }
+  .w-\[30px\] {
+    width: 30px;
+  }
   .w-\[40px\] {
     width: 40px;
   }
   .w-\[60\%\] {
     width: 60%;
   }
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[290px\] {
     width: 290px;
   }
+  .w-\[815px\] {
+    width: 815px;
+  }
   .w-full {
     width: 100%;
+  }
+  .max-w-\[30\%\] {
+    max-width: 30%;
+  }
+  .max-w-\[50\%\] {
+    max-width: 50%;
+  }
+  .max-w-\[70\%\] {
+    max-width: 70%;
   }
   .max-w-\[556px\] {
     max-width: 556px;
@@ -717,6 +783,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .overflow-hidden {
+    overflow: hidden;
   }
   .rounded-\[25px\] {
     border-radius: 25px;
@@ -790,6 +859,12 @@
   .bg-\[url\(\/build\/img\/penn-center-innovation\.avif\)\] {
     background-image: url(/build/img/penn-center-innovation.avif);
   }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/priority_card_3x2\/public\/2024-04\/covenant\.jpeg\?itok\=bBhg5bV2\)\] {
+    background-image: url(https://www.upenn.edu/sites/default/files/styles/priority_card_3x2/public/2024-04/covenant.jpeg?itok=bBhg5bV2);
+  }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/themes\/custom\/penn_global\/assets\/img\/blue-pattern-bg\.png\)\] {
+    background-image: url(https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png);
+  }
   .bg-cover {
     background-size: cover;
   }
@@ -841,6 +916,9 @@
   .pt-\[40px\] {
     padding-top: 40px;
   }
+  .pb-\[100px\] {
+    padding-bottom: 100px;
+  }
   .pb-\[14px\] {
     padding-bottom: 14px;
   }
@@ -862,6 +940,9 @@
   .text-\[14px\] {
     font-size: 14px;
   }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
   .text-\[16px\] {
     font-size: 16px;
   }
@@ -882,6 +963,15 @@
   }
   .text-\[35px\] {
     font-size: 35px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
+  .text-\[50px\] {
+    font-size: 50px;
+  }
+  .text-\[60px\] {
+    font-size: 60px;
   }
   .leading-3 {
     --tw-leading: calc(var(--spacing) * 3);
