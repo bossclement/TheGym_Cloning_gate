@@ -727,6 +727,15 @@
   .h-\[10vw\] {
     height: 10vw;
   }
+  .h-\[1100px\] {
+    height: 1100px;
+  }
+  .h-\[11px\] {
+    height: 11px;
+  }
+  .h-\[13px\] {
+    height: 13px;
+  }
   .h-\[30px\] {
     height: 30px;
   }
@@ -736,32 +745,14 @@
   .h-\[50px\] {
     height: 50px;
   }
-  .h-\[60px\] {
-    height: 60px;
-  }
   .h-\[60vw\] {
     height: 60vw;
-  }
-  .h-\[700px\] {
-    height: 700px;
   }
   .h-\[70px\] {
     height: 70px;
   }
   .h-\[70vw\] {
     height: 70vw;
-  }
-  .h-\[75px\] {
-    height: 75px;
-  }
-  .h-\[120vh\] {
-    height: 120vh;
-  }
-  .h-\[800px\] {
-    height: 800px;
-  }
-  .h-\[80px\] {
-    height: 80px;
   }
   .h-\[80vw\] {
     height: 80vw;
@@ -772,20 +763,44 @@
   .h-\[100vw\] {
     height: 100vw;
   }
-  .h-\[1100px\] {
-    height: 1100px;
-  }
-  .h-\[11px\] {
-    height: 11px;
+  .h-\[120vh\] {
+    height: 120vh;
   }
   .h-\[12px\] {
     height: 12px;
   }
-  .h-\[13px\] {
-    height: 13px;
-  }
   .h-\[200vh\] {
     height: 200vh;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[542px\] {
+    height: 542px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .h-\[60px\] {
+    height: 60px;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-\[75px\] {
+    height: 75px;
+  }
+  .h-\[80px\] {
+    height: 80px;
+  }
+  .h-\[120vw\] {
+    height: 120vw;
+  }
+  .h-\[130vw\] {
+    height: 130vw;
+  }
+  .h-\[140vw\] {
+    height: 140vw;
   }
   .h-\[300px\] {
     height: 300px;
@@ -796,20 +811,14 @@
   .h-\[410px\] {
     height: 410px;
   }
-  .h-\[500px\] {
-    height: 500px;
-  }
   .h-\[540px\] {
     height: 540px;
   }
-  .h-\[542px\] {
-    height: 542px;
-  }
-  .h-\[600px\] {
-    height: 600px;
-  }
   .h-\[650px\] {
     height: 650px;
+  }
+  .h-\[800px\] {
+    height: 800px;
   }
   .h-\[942px\] {
     height: 942px;
@@ -835,12 +844,6 @@
   .max-h-\[410px\] {
     max-height: 410px;
   }
-  .min-h-\[1000px\] {
-    min-height: 1000px;
-  }
-  .min-h-\[100vh\] {
-    min-height: 100vh;
-  }
   .min-h-\[107vh\] {
     min-height: 107vh;
   }
@@ -850,17 +853,17 @@
   .min-h-\[110vh\] {
     min-height: 110vh;
   }
-  .min-h-\[120vh\] {
-    min-height: 120vh;
-  }
-  .min-h-\[500px\] {
-    min-height: 500px;
-  }
   .min-h-\[719px\] {
     min-height: 719px;
   }
   .min-h-\[900px\] {
     min-height: 900px;
+  }
+  .min-h-\[1000px\] {
+    min-height: 1000px;
+  }
+  .min-h-\[100vh\] {
+    min-height: 100vh;
   }
   .min-h-\[1020px\] {
     min-height: 1020px;
@@ -873,6 +876,12 @@
   }
   .min-h-\[1200px\] {
     min-height: 1200px;
+  }
+  .min-h-\[120vh\] {
+    min-height: 120vh;
+  }
+  .min-h-\[500px\] {
+    min-height: 500px;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
@@ -934,9 +943,6 @@
   .w-\[20px\] {
     width: 20px;
   }
-  .w-\[30px\] {
-    width: 30px;
-  }
   .w-\[40px\] {
     width: 40px;
   }
@@ -945,6 +951,12 @@
   }
   .w-\[290px\] {
     width: 290px;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[30px\] {
+    width: 30px;
   }
   .w-\[500px\] {
     width: 500px;
@@ -960,9 +972,6 @@
   }
   .w-\[250px\] {
     width: 250px;
-  }
-  .w-\[300px\] {
-    width: 300px;
   }
   .w-\[340px\] {
     width: 340px;
@@ -1252,6 +1261,18 @@
   .bg-\[url\(\/build\/img\/penn-center-innovation\.avif\)\] {
     background-image: url(/build/img/penn-center-innovation.avif);
   }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/crop_5x3\/public\/2025-02\/avian-bird-flu\.jpg\)\] {
+    background-image: url(https://www.upenn.edu/sites/default/files/styles/crop_5x3/public/2025-02/avian-bird-flu.jpg);
+  }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/crop_5x3\/public\/2025-02\/avian-bird-flu\.jpg\?h\=d0d32c2c\&amp\;itok\=MaefnWJg\)\] {
+    background-image: url(https://www.upenn.edu/sites/default/files/styles/crop_5x3/public/2025-02/avian-bird-flu.jpg?h=d0d32c2c&amp;itok=MaefnWJg);
+  }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/featured_story_mobile\/public\/2025-01\/penn-center-innovation\.jpg\)\] {
+    background-image: url(https://www.upenn.edu/sites/default/files/styles/featured_story_mobile/public/2025-01/penn-center-innovation.jpg);
+  }
+  .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/featured_story_mobile\/public\/2025-01\/penn-center-innovation\.jpg\?h\=53bbd1a1\&itok\=1uDY9uq4\)\] {
+    background-image: url(https://www.upenn.edu/sites/default/files/styles/featured_story_mobile/public/2025-01/penn-center-innovation.jpg?h=53bbd1a1&itok=1uDY9uq4);
+  }
   .bg-\[url\(https\:\/\/www\.upenn\.edu\/sites\/default\/files\/styles\/priority_card_3x2\/public\/2020-12\/mark-alan-hughes-kleinman\.jpg\?h\=34d9d7d1\&itok\=yb2jj8X7\)\] {
     background-image: url(https://www.upenn.edu/sites/default/files/styles/priority_card_3x2/public/2020-12/mark-alan-hughes-kleinman.jpg?h=34d9d7d1&itok=yb2jj8X7);
   }
@@ -1269,6 +1290,9 @@
   }
   .bg-\[url\(https\:\/\/www\.upenn\.edu\/themes\/custom\/penn_global\/assets\/img\/blue-pattern-bg\.png\)\] {
     background-image: url(https://www.upenn.edu/themes/custom/penn_global/assets/img/blue-pattern-bg.png);
+  }
+  .bg-contain {
+    background-size: contain;
   }
   .bg-cover {
     background-size: cover;
