@@ -583,12 +583,6 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
-  .h-\[10px\] {
-    height: 10px;
-  }
-  .h-\[500px\] {
-    height: 500px;
-  }
   .h-\[50px\] {
     height: 50px;
   }
@@ -597,6 +591,12 @@
   }
   .h-\[100px\] {
     height: 100px;
+  }
+  .h-\[10px\] {
+    height: 10px;
+  }
+  .h-\[500px\] {
+    height: 500px;
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
@@ -633,6 +633,9 @@
   }
   .resize {
     resize: both;
+  }
+  .flex-col {
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -693,6 +696,9 @@
   }
   .bg-\[url\(\/build\/img\/avian-bird-flu\.avif\)\] {
     background-image: url(/build/img/avian-bird-flu.avif);
+  }
+  .bg-\[url\(\/build\/img\/penn-center-innovation\.avif\)\] {
+    background-image: url(/build/img/penn-center-innovation.avif);
   }
   .bg-cover {
     background-size: cover;
@@ -822,6 +828,13 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
   }
 }
 :root {
